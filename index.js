@@ -19,6 +19,11 @@ app.get("/branch", (req, res) => {
 });
 
 
+app.get("/testttt", (req, res) => {
+  res.send("testttt");
+});
+
+
 
 // تشغيل السيرفر
 app.listen(PORT, () => {
