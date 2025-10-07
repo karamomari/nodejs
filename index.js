@@ -23,7 +23,9 @@ app.get("/testttt", (req, res) => {
   res.send("testttt");
 });
 
-
+app.get("/Scroll", (req, res) => {
+  res.send("Scroll");
+});
 
 // تشغيل السيرفر
 app.listen(PORT, () => {
